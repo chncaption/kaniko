@@ -1,4 +1,4 @@
-FROM alpine as base_stage
+FROM alpine:3.18.5 as base_stage
 
 RUN echo base_stage
 
